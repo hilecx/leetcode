@@ -25,7 +25,7 @@ public class A0860LemonadeChange {
         return true;
     }
 
-//    其实20不用纳入计算的
+//    其实20不用纳入计算的!
     public boolean lemonadeChange2(int[] bills) {
         int[] m = new int[3];//5,10,20
         for (int i = 0; i < bills.length; i++) {
