@@ -1,13 +1,15 @@
 import sun.security.x509.IPAddressName;
 
 import java.util.*;
+/*
+ Tarjan算法：
+ 割边和割点的定义仅限于无向图中。我们可以通过定义以蛮力方式求解出无向图的所有割点和割边,但这样的求解方式效率低。
+ Tarjan提出了一种快速求解的方式，通过一次DFS就求解出图中所有的割点和割边。
+ 自己按照教程写了代码https://www.cnblogs.com/nullzx/p/7968110.html
+Runtime: 80 ms, faster than 94.21% of Java online submissions for Critical Connections in a Network.
+Memory Usage: 96.7 MB, less than 100.00% of Java online submissions for Critical Connections in a Network.
 
-// Tarjan算法：
-// 割边和割点的定义仅限于无向图中。我们可以通过定义以蛮力方式求解出无向图的所有割点和割边,但这样的求解方式效率低。
-// Tarjan提出了一种快速求解的方式，通过一次DFS就求解出图中所有的割点和割边。
-// 自己按照教程写了代码https://www.cnblogs.com/nullzx/p/7968110.html
-//Runtime: 80 ms, faster than 94.21% of Java online submissions for Critical Connections in a Network.
-//Memory Usage: 96.7 MB, less than 100.00% of Java online submissions for Critical Connections in a Network.
+*/
 public class A1192CriticalConnectionsinaNetwork {
     ArrayList<Integer>[] map ;
     int maxdfn = 1;
