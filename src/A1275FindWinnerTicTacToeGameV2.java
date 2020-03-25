@@ -1,4 +1,5 @@
 public class A1275FindWinnerTicTacToeGameV2 {
+//    这个方法过于直白，一点巧劲都没有用
     int[][][][][] dict = new int[3][3][4][3][2];
 
     public String tictactoe(int[][] moves) {
