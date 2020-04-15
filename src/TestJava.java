@@ -2,8 +2,12 @@ import java.util.Arrays;
 
 public class TestJava {
     public static void main(String[] args) {
+
+        System.out.println(-3%7);
+        System.out.println(-10%7);
         System.out.println("flower".indexOf("flow1"));
         System.out.println("flower".substring(0,2));
+        System.out.println("flower");
 
 
 //        String paragraph = "Bob. hIt, baLl";
