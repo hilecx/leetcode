@@ -23,6 +23,7 @@ public class A0367ValidPerfectSquare {
         if (num < 0) return false;
         int i = 1;
         while (num > 0) {
+            System.out.printf("num:%d, i:%d \n",num,i);
             num =num- i;
             i =i+ 2;
         }
