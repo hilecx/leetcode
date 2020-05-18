@@ -1,8 +1,10 @@
 import java.util.Arrays;
+import java.util.Objects;
 
 public class TestJava {
     public static void main(String[] args) {
-
+        System.out.println(Objects.hash(1, 2));
+        System.out.println(Objects.hash(2, 1));
         System.out.println(-3%7);
         System.out.println(-10%7);
         System.out.println("flower".indexOf("flow1"));
